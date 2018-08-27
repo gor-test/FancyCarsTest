@@ -1,0 +1,15 @@
+{
+	"parser": "babel-eslint",
+	"extends": ["airbnb", "plugin:flowtype/recommended"],
+	"rules": {
+		"import/prefer-default-export": "off",
+		"react/prefer-stateless-function": "off",
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+		"no-use-before-define": 0,
+		"flowtype/no-types-missing-file-annotation": "off",
+		"arrow-body-style": "off"
+	},
+	"globals": {
+    "__DEV__": true
+  }
+}
